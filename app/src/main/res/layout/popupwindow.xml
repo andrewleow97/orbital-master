@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/cardview_light_background"
+    android:padding="@dimen/activity_vertical_margin"
+    android:visibility="visible">
+
+    <RelativeLayout
+        android:id="@+id/bac_dim_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C0000000"
+        android:visibility="gone"></RelativeLayout>
+    //Name
+
+    <TextView
+        android:id="@+id/networkPop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="NetworkName"
+        android:textSize="20sp" />
+    //Public Name
+
+    <TextView
+        android:id="@+id/publicnamePop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/networkPop"
+        android:layout_alignStart="@+id/networkPop"
+        android:text="BSSID"
+        android:textSize="20sp" />
+    //Signal Strength
+
+    <TextView
+        android:id="@+id/signalPop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/publicnamePop"
+        android:layout_alignStart="@+id/publicnamePop"
+        android:text="SignalStrength"
+        android:textSize="20sp" />
+    //BSSID/MAC Address
+
+    //Security Type
+
+    <TextView
+        android:id="@+id/securityPop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signalPop"
+        android:text="SecurityType"
+        android:textSize="20sp" />
+    // Frequency
+
+    <TextView
+        android:id="@+id/frequencyPop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/securityPop"
+        android:layout_alignStart="@+id/securityPop"
+        android:text="Frequency"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

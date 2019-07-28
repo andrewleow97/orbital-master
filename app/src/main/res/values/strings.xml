@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">WiFinder</string>
+    <string name="title_home">Search</string>
+    <string name="title_dashboard">Map</string>
+    <string name="title_notifications">Notifications</string>
+    <string-array name="wifiList">
+        <item>Wifi Network 1</item>
+        <item>Wifi Network 2</item>
+        <item>Wifi Network 3</item>
+        <item>Wifi Network 4</item>
+        <item>Wifi Network 5</item>
+        <item>Wifi Network 6</item>
+        <item>Wifi Network 7</item>
+        <item>Wifi Network 8</item>
+    </string-array>
+    <string-array name="signalStrength">
+        <item>Excellent</item>
+        <item>Excellent</item>
+        <item>Good</item>
+        <item>Good</item>
+        <item>Good</item>
+        <item>Medium</item>
+        <item>Medium</item>
+        <item>Poor</item>
+    </string-array>
+    <string-array name="securityStatus">
+        <item>Password Required</item>
+        <item>Password Required</item>
+        <item>Open</item>
+        <item>Password Required</item>
+        <item>Password Required</item>
+        <item>Password Required</item>
+        <item>Open</item>
+        <item>Password Required</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+Welcome to WiFinder
+
+
+To search available WiFi networks, click the Search tab.
+
+
+To enter the heatmap mode, click the Map tab.
+
+Inside the Map tab, click Add Value to record the WiFi signal strength at your current location.
+
+Click save to update/display the heatmap.
